@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:id="@+id/layoutKeyboardBarContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/img_voice"
+            android:orientation="horizontal">
+
+            <include layout="@layout/layout_keyboard_top" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_voice"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:padding="@dimen/_7sdp"
+            android:src="@drawable/mic" />
+
+        <RelativeLayout
+            android:id="@+id/r_search_giphy"
+            android:layout_width="1044px"
+            android:layout_height="108px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/search_gif"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/close_search_giphy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/back1" />
+
+            <EditText
+                android:id="@+id/et_search_gif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_toLeftOf="@+id/start_search_giphy"
+                android:layout_toRightOf="@+id/close_search_giphy"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Search GIF"
+                android:inputType="text"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_8sdp"
+                android:textColor="@color/white"
+                android:textColorHint="#a1ffffff"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/start_search_giphy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_7sdp"
+                android:src="@drawable/search"
+                android:tint="#b9b3b3" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <com.demo.example.neonkeyboard.ledkeyboard.MyKeyboard.LatinKeyboardView
+            android:id="@+id/viewKeyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:keyBackground="@drawable/key_background"
+            android:keyPreviewHeight="64dp"
+            android:keyPreviewLayout="@layout/key_popup"
+            android:keyPreviewOffset="0dp"
+            android:keyTextColor="@color/white"
+            android:keyTextSize="20dp"
+            android:paddingTop="0dp"
+            android:popupLayout="@layout/layout_keyboard_popup"
+            android:shadowRadius="0"
+            android:verticalCorrection="0dp" />
+    </RelativeLayout>
+</LinearLayout>

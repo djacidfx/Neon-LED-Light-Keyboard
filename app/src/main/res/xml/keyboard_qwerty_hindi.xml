@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:horizontalGap="1dp"
+    android:keyWidth="9.8%p"
+    android:keyHeight="52dp"
+    android:verticalGap="4dp">
+    <Row>
+        <Key
+            android:codes="0x94c"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ौ" />
+        <Key
+            android:codes="0x948"
+            android:keyLabel="ै" />
+        <Key
+            android:codes="0x93e"
+            android:keyLabel="ा" />
+        <Key
+            android:codes="0x940"
+            android:keyLabel="ी" />
+        <Key
+            android:codes="0x942"
+            android:keyLabel="ू" />
+        <Key
+            android:codes="0x92c"
+            android:keyLabel="ब" />
+        <Key
+            android:codes="0x939"
+            android:keyLabel="ह" />
+        <Key
+            android:codes="0x917"
+            android:keyLabel="ग" />
+        <Key
+            android:codes="0x926"
+            android:keyLabel="द" />
+        <Key
+            android:codes="0x91c"
+            android:keyEdgeFlags="right"
+            android:keyLabel="ज" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="0x94b"
+            android:horizontalGap="5.9%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ो" />
+        <Key
+            android:codes="0x947"
+            android:keyLabel="े" />
+        <Key
+            android:codes="0x94d"
+            android:keyLabel="्" />
+        <Key
+            android:codes="0x93f"
+            android:keyLabel="ि" />
+        <Key
+            android:codes="0x941"
+            android:keyLabel="ु" />
+        <Key
+            android:codes="0x92a"
+            android:keyLabel="प" />
+        <Key
+            android:codes="0x930"
+            android:keyLabel="र" />
+        <Key
+            android:codes="0x915"
+            android:keyLabel="क" />
+        <Key
+            android:codes="0x924"
+            android:keyEdgeFlags="right"
+            android:keyLabel="त" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-1"
+            android:horizontalGap="1%p"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyWidth="14.7%p"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/ic_shiftup" />
+        <Key
+            android:codes="0x949"
+            android:keyLabel="ॉ" />
+        <Key
+            android:codes="0x902"
+            android:keyLabel="ं" />
+        <Key
+            android:codes="0x93c"
+            android:keyLabel="़" />
+        <Key
+            android:codes="0x928"
+            android:keyLabel="न" />
+        <Key
+            android:codes="0x935"
+            android:keyLabel="व" />
+        <Key
+            android:codes="0x932"
+            android:keyLabel="ल" />
+        <Key
+            android:codes="0x938"
+            android:keyLabel="स" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyWidth="14.7%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_backspace" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="-2"
+            android:horizontalGap="1%p"
+            android:keyWidth="14.7%p"
+            android:keyLabel="123" />
+        <Key
+            android:codes="-101"
+            android:keyIcon="@drawable/icon_emoj1" />
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyWidth="49.2%p"
+            android:keyLabel="space" />
+        <Key
+            android:codes="46,44"
+            android:keyLabel=". ,"
+            android:popupCharacters=".,?!#@"
+            android:popupKeyboard="@xml/keyboard_popup_template" />
+        <Key
+            android:codes="10"
+            android:keyWidth="14.7%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_nextline" />
+    </Row>
+</Keyboard>

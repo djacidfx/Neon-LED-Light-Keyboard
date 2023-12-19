@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewEmojiPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewEmojiHorizontalLine" />
+
+    <View
+        android:id="@+id/viewEmojiHorizontalLine"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/layoutEmojiTabs"
+        android:background="#888888" />
+
+    <LinearLayout
+        android:id="@+id/layoutEmojiTabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="#aa000000"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEmojiReturnToKeyboard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:text="ABC"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnEmojiTab0Recent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/_4sdp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:src="@drawable/icon_emoji0" />
+
+        <ImageButton
+            android:id="@+id/btnEmojiTab1People"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/_4sdp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:src="@drawable/icon_emoj1" />
+
+        <ImageButton
+            android:id="@+id/btnEmojiTab2Nature"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/_4sdp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:src="@drawable/icon_emoji2" />
+
+        <ImageButton
+            android:id="@+id/btnEmojiTab3Objects"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/_4sdp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:src="@drawable/icon_emoji3" />
+
+        <ImageButton
+            android:id="@+id/btnEmojiTab4Cars"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/_4sdp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:src="@drawable/icon_emoji4" />
+
+        <ImageButton
+            android:id="@+id/btnEmojiTab5Punctuation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/_4sdp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/icon_emoji5" />
+
+        <ImageButton
+            android:id="@+id/btnEmojiBackspace"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_backspace" />
+    </LinearLayout>
+</RelativeLayout>

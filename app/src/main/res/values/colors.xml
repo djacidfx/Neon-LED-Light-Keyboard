@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#151515</color>
+    <color name="colorPrimaryDark">#09113c</color>
+    <color name="colorAccent">#e85e84</color>
+
+
+    <color name="black">#000000</color>
+    <color name="candidate_background">#bbffffff</color>
+    <color name="candidate_normal">#ff000000</color>
+    <color name="candidate_other">#ff808080</color>
+    <color name="candidate_recommended">#ffe35900</color>
+    <color name="cardview_dark_background">#ff424242</color>
+    <color name="cardview_light_background">#ffffffff</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="colorBtnDisabledText">#b2b2b2</color>
+    <color name="colorCandidateBackground">#17222d</color>
+    <color name="colorCandidateOther">#6f767c</color>
+    <color name="colorKeyNormal">#dbdedf</color>
+    <color name="colorKeyTextPressed">#aaaaaa</color>
+
+    <color name="darkTheme">#3e4149</color>
+    <color name="random1">#ffffe082</color>
+    <color name="random10">#ffb39ddb</color>
+    <color name="random11">#ffa5d6a7</color>
+    <color name="random12">#ffb388ff</color>
+    <color name="random13">#ff009688</color>
+    <color name="random14">#ffe91e63</color>
+    <color name="random2">#ff90caf9</color>
+    <color name="random3">#ff37474f</color>
+    <color name="random4">#3f3f3f</color>
+    <color name="random5">#ffd7ccc8</color>
+    <color name="random6">#ff80deea</color>
+    <color name="random7">#ff80cbc4</color>
+    <color name="random8">#ffff5722</color>
+    <color name="random9">#ffff9e80</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">#ffffff</color>
+    <color name="white_75p">#bfffffff</color>
+</resources>
